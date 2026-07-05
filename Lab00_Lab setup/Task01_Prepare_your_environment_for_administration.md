@@ -54,6 +54,5 @@ Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
 8.	Audit가 활성화되면 명령어는 True로 반환되고, Microsoft 365에서 감사를 성공적으로 활성화 됩니다. <br>
 ![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-27-34.png)
 
-![alt text](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-32-28.png)
- 
+
 
