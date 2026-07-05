@@ -1,5 +1,5 @@
 # 방법1 : Purview 관리자 포탈에서 감사로그 활성화하는 방법
-1.	Microsoft Edge에서는 https://purview.microsoft.com 로 이동해 Microsoft Purview 포털에 로그인 합니다.
+1.	Microsoft Edge에서는 https://purview.microsoft.com 로 이동해 Microsoft Purview 포털에 로그인 합니다.<br>
 📝 참고: 로그인 상태를 유지할지 묻는 팝업이 뜨면 '예'를 클릭하세요.
 
 2.	새로운 Microsoft Purview 포털에 관한 메시지가 화면에 나타납니다. 새 포털에 접근하려면 시작하기 선택을 하세요.<br>
@@ -53,5 +53,7 @@ Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
 
 8.	Audit가 활성화되면 명령어는 True로 반환되고, Microsoft 365에서 감사를 성공적으로 활성화 됩니다. <br>
 ![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-27-34.png)
+
+![alt text](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-32-28.png)
  
 
