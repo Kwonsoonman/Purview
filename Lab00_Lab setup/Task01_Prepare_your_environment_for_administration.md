@@ -22,6 +22,7 @@ Install-Module ExchangeOnlineManagement
 ```
 <br>
 
+![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-40-42.png)
  
 
 3.	Y를 '예'로 입력하고 엔터를 눌러 프롬프트를 확인합니다
@@ -35,7 +36,7 @@ Connect-ExchangeOnline
 ```
 를 실행하면 나타나는 화면에서 전역관리자 계정과 암호를 입력합니다.<br>
 
-
+![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-40-16.png)
 
  
 5.	감사로그 상태를 확인하기 위한 명령어를 실행합니다.
@@ -54,6 +55,6 @@ Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
 ```
 
 8.	Audit가 활성화되면 명령어는 True로 반환되고, Microsoft 365에서 감사를 성공적으로 활성화 됩니다. <br>
-
+![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-40-54.png)
 
 
