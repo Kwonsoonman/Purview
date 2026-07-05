@@ -4,10 +4,10 @@
 
 2.	새로운 Microsoft Purview 포털에 관한 메시지가 화면에 나타납니다. 새 포털에 접근하려면 시작하기 선택을 하세요.<br>
 
-![alt text](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-26-54.png)
 
 3.	왼쪽 사이드바에서 [솔루션(Solution)]을 선택한 후 [감사(Audit)]를 선택하세요.
-4.	검색 페이지에서 감사 기록을 활성화하려면 사용자 및 관리자 활동 기록 시작 바를 선택하면, 이 페이지에서 파란색 바가 사라집니다.
+
+4.	검색 페이지에서 감사 기록을 활성화하려면 사용자 및 관리자 활동 기록 시작 바를 선택하면, 이 페이지에서 파란색 바가 사라집니다.<br>
 
 📝 참고: Audit 버튼이 일부 테넌트 로그인을 활성화하지 않는다면, '사용자 및 관리자 활동 기록 시작'을 선택해도 Audit가 활성화되지 않을 수 있습니다. 이런 경우에는 PowerShell을 통해 감사를 활성화할 수 있습니다:
 
@@ -19,7 +19,7 @@
 Install-Module ExchangeOnlineManagement
 ```
 <br>
-![alt text](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-27-05.png)
+
  
 
 3.	Y를 '예'로 입력하고 엔터를 눌러 프롬프트를 확인합니다
@@ -33,7 +33,7 @@ Connect-ExchangeOnline
 ```
 를 실행하면 나타나는 화면에서 전역관리자 계정과 암호를 입력합니다.<br>
 
-![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-27-18.png)
+
 
  
 5.	감사로그 상태를 확인하기 위한 명령어를 실행합니다.
@@ -52,7 +52,6 @@ Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
 ```
 
 8.	Audit가 활성화되면 명령어는 True로 반환되고, Microsoft 365에서 감사를 성공적으로 활성화 됩니다. <br>
-![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-27-34.png)
 
 
 
