@@ -4,6 +4,8 @@
 
 2.	새로운 Microsoft Purview 포털에 관한 메시지가 화면에 나타납니다. 새 포털에 접근하려면 시작하기 선택을 하세요.<br>
 
+![](Task01_Prepare_your_environment_for_administration.assets/2026-07-05-19-38-04.png)
+
 
 3.	왼쪽 사이드바에서 [솔루션(Solution)]을 선택한 후 [감사(Audit)]를 선택하세요.
 
